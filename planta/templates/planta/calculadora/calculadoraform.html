@@ -1,0 +1,9 @@
+<form action="{% url 'planta:calcu' %}" method="POST">
+    {% csrf_token %}
+    <label for="">num1</label>
+    <input type="number" name="num1" id="" /><br/>
+    <label for="">num2</label>
+    <input type="number" name="num2" id=""><br/>
+    <button>Sumar</button>
+
+</form>

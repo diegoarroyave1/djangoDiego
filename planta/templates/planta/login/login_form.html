@@ -1,0 +1,9 @@
+<form action="{% url 'planta:login' %}" method="POST">
+    {% csrf_token %}
+    <label for="">Usuario</label>
+    <input type="text" name="Usuario" id="" /><br/>
+    <label for="">Contraseña</label>
+    <input type="password" name="Contrasena" id=""><br/>
+    <button>Enviar</button>
+
+</form>
